@@ -1,0 +1,71 @@
+.li-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-con {
+  display: flex;
+  width: 20vw;
+  height: 15vh;
+  border: 1px solid white;
+  border-radius: 15px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff30;
+  margin-left: 20px;
+
+  /* change numbers from 00 to 99 at last of hex code 
+  for transpency you want. */
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+}
+.team-name {
+  color: white;
+  font-family: Bree serif;
+  font-size: 20px;
+  width: 10vw;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .li-item {
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* background-color: aqua; */
+  }
+  .team-con {
+    display: flex;
+    width: 45vw;
+    height: 20vh;
+    border: 1px solid white;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff30;
+    padding-left: 10px;
+    padding-left: 5px;
+    margin: 6px;
+
+    /* change numbers from 00 to 99 at last of hex code 
+  for transpency you want. */
+  }
+  .logo {
+    width: 90px;
+    height: 90px;
+  }
+  .team-name {
+    color: white;
+    font-family: Bree serif;
+    font-size: 20px;
+    text-align: center;
+    /* background-color: red; */
+    width: 30vw;
+  }
+}
